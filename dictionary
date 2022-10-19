@@ -1,0 +1,67 @@
+-- tables
+DocumentSentencesRules
+DocumentReports
+RulesInfo
+DocumentSentences
+RulesWithNoFinding
+admissionsList
+Stays
+Releases
+Presence
+
+-- columns 
+row_id
+id_report
+id_rule
+name_rule
+type_rule
+expression_rule
+sentence
+id_sentence
+id_rule_no_finding
+admissionId
+checkIn
+checkOut
+timestamp
+HospId
+HopsName
+PatCode
+UnitCode
+UnitName
+AdmitDate
+AdmitTime
+ReleaseDate
+ReleaseTime
+DATE_KUPA
+STATUS
+STATUS_DESC
+ID
+FIRST_POS
+RELEASE
+unit
+
+-- commands
+select
+from
+as
+where
+group by
+having
+order by
+inner join
+left join
+right join
+full outer join
+with
+datediff
+isnull
+getdate
+eomonth
+hour
+day
+month
+avg
+row_number
+over
+desc
+asc
